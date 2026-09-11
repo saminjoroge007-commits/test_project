@@ -2,8 +2,8 @@
 
 # calculate the area of a rectangle
 
-width =  20
-length = 40
+width =  45
+length = 72
 area = length*width
 print("The area of the rectangle is:", area)
 
