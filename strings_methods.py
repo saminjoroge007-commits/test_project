@@ -19,8 +19,7 @@ print(sentece3_cleaned)
 
 #clean sentence4 to "Techcamp Kenya"
 sentence4 = "TECHcamp Kenya    "
-sentence4_cleaned = sentence4.strip().title()
-print(sentence4_cleaned)
+sentence4_cleaned = sentence4.strip().title()print(sentence4_cleaned)
 
 sentence6 = "Alex Kimani"
 sentence6 = sentence6.replace("Kimani", "Mwangi")
