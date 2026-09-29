@@ -43,7 +43,7 @@ if password == "secret123":
     print("Access granted")
 else:
     print("Access denied")
-# Write a Python program that checks if a variable student_score is greater than 90. If true, check if the attendance is greater than 80. If both conditions are true, print "Excellent student", otherwise print "Good score, but attendance needs improvement"
+# (*nested if) Write a Python program that checks if a variable student_score is greater than 90. If true, check if the attendance is greater than 80. If both conditions are true, print "Excellent student", otherwise print "Good score, but attendance needs improvement"
 
 student_score = float(input("Enter student score: "))
 attendance = float(input("Enter attendance: "))
@@ -53,3 +53,19 @@ if student_score > 90:
         print("Excellent student")
     else:
         print("Good score, but attendance needs improvement")
+
+#1.Assume start_date = '2024-01-01' and end_date = '2024-12-31'. Write a conditional statement that checks:
+#I#f start_date comes before end_date, print "Valid period",
+#If start_date is after end_date, print "Invalid period".
+#If both dates are the same, print "One-day period".
+#2.Given two strings str1 and str2, write a conditional statement that checks:
+#If str1 is longer than str2, print "str1 is longer".
+#If str2 is longer than str1, print "str2 is longer".
+#If both have equal length, print "Both are of equal length".
+
+start_date = '2024-01-01'
+end_date = '2024-12-31'
+if start_date < end_date:
+    print("valid Period")
+elif start_date > end_date:
+    print("Invalid period")
